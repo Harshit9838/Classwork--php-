@@ -1,0 +1,24 @@
+<?php
+// echo "120000";
+echo number_format(12000,"3");
+echo'<br>';
+echo ceil(8.1);
+echo'<br>';
+echo  sinh(180);
+echo'<br>';
+echo "Value of pi ".(pi());
+echo'<br>';
+echo "Maximum Value ".max(23,42,-11,55,100);
+echo'<br>';
+echo "Minimum Value" .min(-1,0,1,2,3,4,5);
+echo'<br>';
+echo "Coverting Negative to Positive " .(abs(-22));
+echo'<br>';
+echo "Square Root of Number ".(sqrt(64));
+echo'<br>';
+echo "Round Figure " .(round(1.76));
+echo'<br>';
+echo "Generates Random Number ".(rand());
+echo'<br>';
+define("GREETING", "Welcome to GLA University!");
+echo GREETING;
