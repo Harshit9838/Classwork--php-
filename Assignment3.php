@@ -1,15 +1,15 @@
 <?php
 // uppercase letters
-print(strtoupper(" i am harsiht dixit , can you help me out."))."\n";
+print(strtoupper(" i am harsiht dixit , can you help me out."));
 echo'<br>';
 //lowercase letters
-print(strtolower(" I AM HARSHIT DIXIT , CAN YOU HELP ME OUT"))."\n";
+print(strtolower(" I AM HARSHIT DIXIT , CAN YOU HELP ME OUT"));
 echo'<br>';
 // string's first character uppercase
-print(ucfirst("  i am harsiht dixit , can you help me out."))."\n";
+print(ucfirst("  i am harsiht dixit , can you help me out."));
 echo'<br>';
 // string's first character of all the words uppercase
-print(ucwords("  i am harsiht dixit , can you help me out"))."\n";
+print(ucwords("  i am harsiht dixit , can you help me out"));
 
 echo'<br>';
 
@@ -31,16 +31,16 @@ else
  echo'<br>';
 
  $str1 = 'rayy@example.com';
-echo substr($str1, -3)."\n";
+echo substr($str1, -3);
 echo'<br>';
 
 $value1 = 65.45;
 $value2 = 104.35;
-echo sprintf("%1.2f", $value1+$value2)."\n";
+echo sprintf("%1.2f", $value1+$value2);
 echo'<br>';
 
 $str = 'the name of boss is always denoted by block letter.';
-echo preg_replace('/the/', 'That', $str, 1)."\n";
+echo preg_replace('/the/', 'That', $str, 1);
 echo'<br>';
 
 $str1 = 'facebook';
