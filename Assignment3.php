@@ -14,7 +14,7 @@ print(ucwords("  i am harsiht dixit , can you help me out"));
 echo'<br>';
 
 $str1= '082307'; 
-echo substr(chunk_split($str1, 2, ':'), 0, -1)."\n";
+echo substr(chunk_split($str1, 2, ':'), 0, -1);
 
 echo'<br>';
 
